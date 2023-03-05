@@ -1,4 +1,5 @@
 import React from "react";
+import ReactAnimatedWeather from "react-animated-weather";
 
 import "./titles.css";
 const hrStyle = {
@@ -11,14 +12,15 @@ function Titles() {
     <div className="Titles">
       <h5 id="city-name">Canberra</h5>
       <h5 id="day-date">Sun, 19 Feb 2023</h5>
-      <h5 id="icon-1">
-        <img
-          src="https://cdn-icons-png.flaticon.com/128/3313/3313998.png"
-          alt="Weather icon"
-          width="120"
-          id="icon-element"
+      <h5 className="icon-1">
+        <ReactAnimatedWeather
+          icon="FOG"
+          color="#000"
+          size={84}
+          animate={true}
         />
       </h5>
+
       <h4 id="temperature-input" className="weather-temp">
         <span id="temperature">16°</span>
         <span>

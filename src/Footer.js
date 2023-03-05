@@ -6,7 +6,7 @@ function Footer() {
   return (
     <p>
       <a
-        href="https://github.com/LivyCodes/project-weather-app"
+        href="https://github.com/LivyCodes/weather-react-app"
         target="_blank"
         rel="noreferrer noopener"
         id="footer"

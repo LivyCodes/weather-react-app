@@ -1,4 +1,5 @@
 import React from "react";
+import ReactAnimatedWeather from "react-animated-weather";
 
 import "./forecast.css";
 
@@ -10,10 +11,11 @@ function Forecast() {
         <div className="row forecast">
           <div className="col">
             <h6 className="forecast-date">Mon</h6>
-            <img
-              src="https://cdn-icons-png.flaticon.com/128/1164/1164941.png"
-              alt="weather icon"
-              width="100"
+            <ReactAnimatedWeather
+              icon="PARTLY_CLOUDY_NIGHT"
+              color="#000"
+              size={42}
+              animate={true}
             />
             <p className="temp">
               <span className="forecast-temp-max">16°C</span>/
@@ -22,10 +24,11 @@ function Forecast() {
           </div>
           <div className="col">
             <h6 className="forecast-date">Tue</h6>
-            <img
-              src="https://cdn-icons-png.flaticon.com/128/1164/1164941.png"
-              alt="weather icon"
-              width="100"
+            <ReactAnimatedWeather
+              icon="WIND"
+              color="#000"
+              size={42}
+              animate={true}
             />
             <p className="temp">
               <span className="forecast-temp-max">16°C</span>/
@@ -34,10 +37,11 @@ function Forecast() {
           </div>
           <div className="col">
             <h6 className="forecast-date">Wed</h6>
-            <img
-              src="https://cdn-icons-png.flaticon.com/128/1164/1164941.png"
-              alt="weather icon"
-              width="100"
+            <ReactAnimatedWeather
+              icon="RAIN"
+              color="#000"
+              size={42}
+              animate={true}
             />
             <p className="temp">
               <span className="forecast-temp-max">16°C</span>/
