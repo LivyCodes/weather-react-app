@@ -1,0 +1,9 @@
+footer p {
+  text-align: left;
+  font-weight: 600;
+  font-family: "Courier Prime", monospace;
+  color: #000000;
+}
+#footer {
+  text-decoration: none;
+}

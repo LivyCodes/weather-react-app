@@ -1,0 +1,13 @@
+h6,
+p {
+  text-align: center;
+  margin-bottom: 4px;
+}
+.weather-forecast {
+  text-align: center;
+}
+img {
+  width: 25%;
+  margin: auto;
+  display: block;
+}

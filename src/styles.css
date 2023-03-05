@@ -1,0 +1,27 @@
+body {
+  max-width: 600px;
+  margin: auto;
+}
+.card {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-top: 50px;
+  max-width: 630px;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background: radial-gradient(
+    circle at 0.4% -0.6%,
+    rgb(143, 170, 210) 0%,
+    rgb(255, 177, 177) 90%
+  );
+}
+.card-title {
+  text-decoration: underline;
+}
