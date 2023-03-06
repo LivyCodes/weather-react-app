@@ -3,6 +3,10 @@ p {
   text-align: center;
   margin-bottom: 4px;
 }
+.title {
+  text-decoration: underline;
+  margin: 6px 0 6px 0;
+}
 .weather-forecast {
   text-align: center;
 }
@@ -10,4 +14,7 @@ img {
   width: 25%;
   margin: auto;
   display: block;
+}
+.temp {
+  font-weight: 600;
 }

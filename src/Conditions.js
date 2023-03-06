@@ -1,4 +1,5 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./conditions.css";
 const myHrStyle = {
@@ -10,7 +11,7 @@ function Conditions() {
   return (
     <div>
       <div className="container text-center">
-        <div class="row">
+        <div className="row">
           <div className="col-3">
             Feels like
             <div className="row" id="precip">

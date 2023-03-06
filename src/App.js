@@ -1,7 +1,7 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css";
 import Container from "./Container";
 import Titles from "./Titles";
-import Conditions from "./Conditions";
 import Forecast from "./Forecast";
 import Footer from "./Footer";
 
@@ -11,10 +11,9 @@ function App() {
       <div className="container-fluid">
         <div className="card">
           <div className="card-body">
-            <h5 className="card-title">WEATHER APP</h5>
+            <h5 className="card-title">REACT WEATHER APP</h5>
             <Container />
             <Titles />
-            <Conditions />
             <Forecast />
           </div>
         </div>

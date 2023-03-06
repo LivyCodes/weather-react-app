@@ -1,4 +1,5 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import ReactAnimatedWeather from "react-animated-weather";
 
 import "./forecast.css";
@@ -6,7 +7,7 @@ import "./forecast.css";
 function Forecast() {
   return (
     <div>
-      <h6>Next 3-day Forecast</h6>
+      <h6 className="title">Next 3-day Forecast</h6>
       <div class="weather-forecast" id="forecast">
         <div className="row forecast">
           <div className="col">

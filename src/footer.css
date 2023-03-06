@@ -1,6 +1,6 @@
-Footer p {
+.footerlink {
+  margin: 10px auto;
   text-align: left;
-  align-items: flex-start;
   font-weight: 600;
   font-family: "Courier Prime", monospace;
   color: #000000;

@@ -1,4 +1,5 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./container.css";
 
@@ -18,7 +19,7 @@ function Container() {
             />
           </div>
           <div className="col-sm-2">
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className="btn btn-primary w-100">
               <span role="img" aria-label="search">
                 🔎
               </span>

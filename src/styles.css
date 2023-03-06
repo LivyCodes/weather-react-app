@@ -1,6 +1,7 @@
 body {
-  max-width: 600px;
+  max-width: 500px;
   margin: auto;
+  color: #595c5f;
 }
 .card {
   width: 100%;
@@ -9,7 +10,7 @@ body {
   margin-top: 50px;
   max-width: 630px;
   backdrop-filter: blur(5px);
-  border: 1px solid rgba(0, 0, 0, 0.939);
+  border: 3px solid rgba(163, 158, 158, 0.939);
   border-radius: 10px;
   flex-direction: column;
   display: flex;

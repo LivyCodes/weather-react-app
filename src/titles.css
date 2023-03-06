@@ -1,16 +1,20 @@
 h4,
 h5,
-h6,
-ul {
+h6 {
   text-align: center;
   margin-bottom: 4px;
+  list-style-type: circle;
 }
-ul {
-  list-style: none;
-}
-li {
+
+.temps {
   display: inline;
 }
+.var-temps,
+.currentConditions {
+  text-align: center;
+  font-weight: 500;
+}
+
 #farenheit {
   text-decoration: none;
 }
@@ -27,8 +31,20 @@ li {
 .weather-temp .active:hover {
   text-decoration: none;
 }
-img {
-  width: 25%;
-  margin: auto;
-  display: block;
+.col-6 {
+  text-align: center;
+  margin-top: 10px;
+}
+.currentConditions {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+}
+.vl {
+  border-left: 1px solid #595c5f;
+  height: 142px;
+  position: absolute;
+  left: 50%;
+  margin-left: -0.5px;
+  margin-top: 10px;
 }
