@@ -8,7 +8,7 @@ function Forecast() {
   return (
     <div>
       <h6 className="title">Next 3-day Forecast</h6>
-      <div class="weather-forecast" id="forecast">
+      <div className="weather-forecast" id="forecast">
         <div className="row forecast">
           <div className="col">
             <h6 className="forecast-date">Mon</h6>

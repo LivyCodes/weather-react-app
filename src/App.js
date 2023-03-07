@@ -12,7 +12,7 @@ function App() {
         <div className="card">
           <div className="card-body">
             <h5 className="card-title">REACT WEATHER APP</h5>
-            <Container />
+            <Container defaultCity="Manchester" />
             <Titles />
             <Forecast />
           </div>
