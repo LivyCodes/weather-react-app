@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import FormatDate from "./FormatDate";
 import WeatherIcon from "./WeatherIcon";
+import ConvertTemp from "./convertTemp";
 
 import "./titles.css";
 
@@ -22,16 +23,7 @@ function Titles(props) {
           </h5>
 
           <h4 id="temperature-input" className="weather-temp">
-            <span id="temperature">{Math.round(props.info.temperature)}°</span>
-            <span>
-              <a href="button" id="celsius" className="active">
-                C
-              </a>
-              |
-              <a href="button" id="farenheit">
-                F
-              </a>
-            </span>
+            <ConvertTemp celsius={props.info.temperature} />
           </h4>
           <h6 id="status">{props.info.description}</h6>
 

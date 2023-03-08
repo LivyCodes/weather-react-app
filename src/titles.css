@@ -15,9 +15,6 @@ h6 {
   font-weight: 500;
 }
 
-#farenheit {
-  text-decoration: none;
-}
 #celsius {
   text-decoration: none;
 }
@@ -31,7 +28,7 @@ h6 {
 .weather-temp .active:hover {
   text-decoration: none;
 }
-.col-6 {
+.col-5 {
   text-align: center;
   margin-top: 10px;
 }
