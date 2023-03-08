@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ReactAnimatedWeather from "react-animated-weather";
 import FormatDate from "./FormatDate";
+import WeatherIcon from "./WeatherIcon";
 
 import "./titles.css";
 
@@ -18,12 +18,7 @@ function Titles(props) {
       <div className="row">
         <div className="col-5">
           <h5 className="icon-1">
-            <ReactAnimatedWeather
-              icon="FOG"
-              color="#000"
-              size={64}
-              animate={true}
-            />
+            <WeatherIcon icondata={props.info.icon} />
           </h5>
 
           <h4 id="temperature-input" className="weather-temp">

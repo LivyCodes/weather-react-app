@@ -22,6 +22,7 @@ function Container(props) {
       humidity: response.data.main.humidity,
       cityName: response.data.name,
       date: new Date(response.data.dt * 1000),
+      icon: response.data.weather[0].icon,
     });
   }
 
@@ -58,9 +59,9 @@ function Container(props) {
               />
             </div>
             <div className="col-sm-2">
-              <button type="submit" className="btn btn-primary w-100">
+              <button type="submit" className="btn btn-primary">
                 <span role="img" aria-label="search">
-                  🔎
+                  Search
                 </span>
               </button>
             </div>
