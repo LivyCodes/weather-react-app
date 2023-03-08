@@ -19,7 +19,7 @@ function WeatherIcon(props) {
     "11n": "RAIN",
     "13d": "SNOW",
     "13n": "SNOW",
-    "50d": "FOD",
+    "50d": "FOG",
     "50n": "FOG",
   };
 
