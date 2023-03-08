@@ -65,7 +65,6 @@ function Container(props) {
                 </span>
               </button>
             </div>
-            <div className="col-sm-2"></div>
           </div>
         </form>
         <Titles info={weatherData} />
