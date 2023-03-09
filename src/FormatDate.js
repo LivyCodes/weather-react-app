@@ -20,13 +20,14 @@ function FormatDate(props) {
   let dates = props.date.getDate();
   let month = months[props.date.getMonth()];
   let hour = props.date.getHours();
-  if (hour < 10) {
-    return ` ${day}, ${dates} ${month}, 0${hour}:${minute}`;
-  }
   let minute = props.date.getMinutes();
   if (minute < 10) {
     return `${day}, ${dates} ${month}, ${hour}:0${minute}`;
   }
+  if (hour < 10) {
+    return ` ${day}, ${dates} ${month}, 0${hour}:${minute}`;
+  }
+
   if (hour < 10 && minute < 10) {
     return `${day}, ${dates} ${month}, 0${hour}:0${minute}`;
   }
