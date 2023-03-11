@@ -20,7 +20,7 @@ function DayForecast(props) {
   return (
     <div>
       <h6 className="forecast-date">{day()}</h6>
-      <WeatherIcon icondata={props.forecast.weather[0].icon} size={40} />
+      <WeatherIcon icondata={props.forecast.weather[0].icon} size={36} />
       <p className="temp">
         <span className="forecast-temp-max">{MaxTemp()}</span>
         <span className="forecast-temp-min">{MinTemp()}</span>
