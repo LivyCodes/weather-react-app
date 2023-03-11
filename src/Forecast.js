@@ -32,6 +32,8 @@ function Forecast(props) {
                     <DayForecast forecast={forecast} />
                   </div>
                 );
+              } else {
+                return null;
               }
             })}
           </div>
