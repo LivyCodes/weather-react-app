@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 import Titles from "./Titles";
+import Forecast from "./Forecast";
 
 import "./container.css";
 
@@ -23,6 +24,7 @@ function Container(props) {
       cityName: response.data.name,
       date: new Date(response.data.dt * 1000),
       icon: response.data.weather[0].icon,
+      coords: response.data.coord,
     });
   }
 
@@ -68,6 +70,7 @@ function Container(props) {
           </div>
         </form>
         <Titles info={weatherData} />
+        <Forecast coords={weatherData.coords} />
       </div>
     );
   } else {

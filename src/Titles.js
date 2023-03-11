@@ -19,7 +19,7 @@ function Titles(props) {
       <div className="row">
         <div className="col-5">
           <h5 className="icon-1">
-            <WeatherIcon icondata={props.info.icon} />
+            <WeatherIcon icondata={props.info.icon} size={64} />
           </h5>
 
           <h4 id="temperature-input" className="weather-temp">

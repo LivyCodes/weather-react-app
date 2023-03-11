@@ -2,7 +2,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css";
 import Container from "./Container";
 import Titles from "./Titles";
-import Forecast from "./Forecast";
 import Footer from "./Footer";
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
             <h5 className="card-title">REACT WEATHER APP</h5>
             <Container defaultCity="Manchester" />
             <Titles />
-            <Forecast />
           </div>
         </div>
       </div>
