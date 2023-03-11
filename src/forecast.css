@@ -21,3 +21,6 @@ img {
 .forecast-temp-min {
   padding-left: 3px;
 }
+p {
+  font-size: smaller;
+}
