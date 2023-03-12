@@ -1,7 +1,6 @@
 body {
   max-width: 500px;
   margin: auto;
-  color: #595c5f;
 }
 .card {
   width: 100%;
@@ -17,7 +16,11 @@ body {
   align-items: center;
   justify-content: center;
   margin: auto;
-  background-color: #d3d6db;
+  background: radial-gradient(
+    circle at 0% 0.5%,
+    rgb(241, 241, 242) 0.1%,
+    rgb(224, 226, 228) 100.2%
+  );
 }
 .card-title {
   text-decoration: underline;
