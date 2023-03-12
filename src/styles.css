@@ -17,6 +17,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: auto;
+  background-color: #d3d6db;
 }
 .card-title {
   text-decoration: underline;
